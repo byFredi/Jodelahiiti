@@ -124,7 +124,10 @@ NavMeshSettings:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> Damian
 --- !u!1 &81618953
 GameObject:
   m_ObjectHideFlags: 0
@@ -501,6 +504,9 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 377127956}
   m_CullTransparentMesh: 1
+<<<<<<< HEAD
+>>>>>>> Damian
+=======
 >>>>>>> Damian
 --- !u!1 &425291387
 GameObject:
@@ -586,7 +592,10 @@ Transform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> Damian
 --- !u!1 &647711363
 GameObject:
   m_ObjectHideFlags: 0
@@ -1256,4 +1265,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2017515222}
   m_CullTransparentMesh: 1
+<<<<<<< HEAD
+>>>>>>> Damian
+=======
 >>>>>>> Damian

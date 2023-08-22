@@ -23,6 +23,27 @@ TextureImporter:
   - first:
       213: 4012194722218018644
     second: Nature_6
+  - first:
+      213: -326718741678846112
+    second: Nature_7
+  - first:
+      213: -6067139739311893624
+    second: Nature_8
+  - first:
+      213: -1445845504097273618
+    second: Nature_9
+  - first:
+      213: -51393379528580744
+    second: Nature_10
+  - first:
+      213: -4209850995119045424
+    second: Nature_11
+  - first:
+      213: -2983527598420250960
+    second: Nature_12
+  - first:
+      213: 320718511915410576
+    second: Nature_13
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -117,7 +138,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 92
+        y: 944
         width: 16
         height: 16
       alignment: 0
@@ -138,7 +159,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 92
+        y: 944
         width: 16
         height: 16
       alignment: 0
@@ -159,7 +180,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 92
+        y: 944
         width: 16
         height: 16
       alignment: 0
@@ -180,7 +201,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 92
+        y: 944
         width: 16
         height: 16
       alignment: 0
@@ -201,7 +222,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 92
+        y: 944
         width: 16
         height: 16
       alignment: 0
@@ -221,8 +242,8 @@ TextureImporter:
       name: Nature_5
       rect:
         serializedVersion: 2
-        x: 128
-        y: 44
+        x: 96
+        y: 896
         width: 16
         height: 16
       alignment: 0
@@ -242,8 +263,8 @@ TextureImporter:
       name: Nature_6
       rect:
         serializedVersion: 2
-        x: 144
-        y: 44
+        x: 112
+        y: 896
         width: 16
         height: 16
       alignment: 0
@@ -255,6 +276,153 @@ TextureImporter:
       bones: []
       spriteID: 4578083a7dd2ea730800000000000000
       internalID: 4012194722218018644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nature_7
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06f05c41903477bf0800000000000000
+      internalID: -326718741678846112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nature_8
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 896
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88398ab5d803dcba0800000000000000
+      internalID: -6067139739311893624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nature_9
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 880
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee8bf28ac235febe0800000000000000
+      internalID: -1445845504097273618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nature_10
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 880
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 871646d5ef9694ff0800000000000000
+      internalID: -51393379528580744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nature_11
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 880
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d4ca9e13da9395c0800000000000000
+      internalID: -4209850995119045424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nature_12
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 880
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be2696e4716896d0800000000000000
+      internalID: -2983527598420250960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Nature_13
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 848
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0942c9f89cb637400800000000000000
+      internalID: 320718511915410576
       vertices: []
       indices: 
       edges: []

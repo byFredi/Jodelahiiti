@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Test1_2
+  m_Name: Nature_12
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 4571099363866129577, guid: cc7a5241c9a3e2740ae8f6d54cd3c1cd, type: 3}
+  m_Sprite: {fileID: -2983527598420250960, guid: 0b922acd57da7cc4b9afd2f24596f7c7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:
     e00: 1

@@ -1,7 +1,85 @@
 fileFormatVersion: 2
 guid: f1736467cb0da2c45bbff30ace8518b1
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 2448814929803095735
+    second: Hintergrund_0
+  - first:
+      213: -8290582881477397155
+    second: Hintergrund_1
+  - first:
+      213: 1262177074643095727
+    second: Hintergrund_2
+  - first:
+      213: 111292291073304030
+    second: Hintergrund_3
+  - first:
+      213: 8809590784112639983
+    second: Hintergrund_4
+  - first:
+      213: 4888157069733769966
+    second: Hintergrund_5
+  - first:
+      213: -1417360674274844944
+    second: Hintergrund_6
+  - first:
+      213: -5533372603923137195
+    second: Hintergrund_7
+  - first:
+      213: 8703644813765991225
+    second: Hintergrund_8
+  - first:
+      213: 7223373961353062762
+    second: Hintergrund_9
+  - first:
+      213: 607864872484886110
+    second: Hintergrund_10
+  - first:
+      213: -4790151302222922062
+    second: Hintergrund_11
+  - first:
+      213: 3866437083609003400
+    second: Hintergrund_12
+  - first:
+      213: 6195469054978360499
+    second: Hintergrund_13
+  - first:
+      213: -8048916310161747915
+    second: Hintergrund_14
+  - first:
+      213: -3743517162717273011
+    second: Hintergrund_15
+  - first:
+      213: 8246078920459339764
+    second: Hintergrund_16
+  - first:
+      213: -8533496390008717556
+    second: Hintergrund_17
+  - first:
+      213: -5560595319372045943
+    second: Hintergrund_18
+  - first:
+      213: -2638342764198608450
+    second: Hintergrund_19
+  - first:
+      213: 2570023909921687746
+    second: Hintergrund_20
+  - first:
+      213: -3185551352604291424
+    second: Hintergrund_21
+  - first:
+      213: -2624153375739557535
+    second: Hintergrund_22
+  - first:
+      213: 3883714930753463675
+    second: Hintergrund_23
+  - first:
+      213: -500085122364294539
+    second: Hintergrund_24
+  - first:
+      213: -7171175448210997077
+    second: Hintergrund_25
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -32,7 +110,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -41,7 +119,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -69,7 +147,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -81,7 +159,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -90,7 +168,553 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Hintergrund_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 944
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7be269b4430fbf120800000000000000
+      internalID: 2448814929803095735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hintergrund_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 944
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d55fa907bcee1fc80800000000000000
+      internalID: -8290582881477397155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hintergrund_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 928
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa05eb1bc57248110800000000000000
+      internalID: 1262177074643095727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hintergrund_3
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 928
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed5e9a3cfb36b8100800000000000000
+      internalID: 111292291073304030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hintergrund_4
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 928
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fefb6979424f14a70800000000000000
+      internalID: 8809590784112639983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hintergrund_5
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 928
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee2bbc3d4f836d340800000000000000
+      internalID: 4888157069733769966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hintergrund_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 928
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe5d3be9f5845ce0800000000000000
+      internalID: -1417360674274844944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hintergrund_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 912
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55d784d0fe28533b0800000000000000
+      internalID: -5533372603923137195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hintergrund_8
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 912
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b51bf18de89c870800000000000000
+      internalID: 8703644813765991225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hintergrund_9
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 912
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a696146c8549e3460800000000000000
+      internalID: 7223373961353062762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hintergrund_10
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 912
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5656e381e19f6800800000000000000
+      internalID: 607864872484886110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hintergrund_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 912
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2beb0aa15c6f58db0800000000000000
+      internalID: -4790151302222922062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hintergrund_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88579e2da0858a530800000000000000
+      internalID: 3866437083609003400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hintergrund_13
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 896
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b409eec74abaf550800000000000000
+      internalID: 6195469054978360499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hintergrund_14
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 896
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53016f9c2418c4090800000000000000
+      internalID: -8048916310161747915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hintergrund_15
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 896
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d44a8a979fa5c0cc0800000000000000
+      internalID: -3743517162717273011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hintergrund_16
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 896
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f7c0dba615ff6270800000000000000
+      internalID: 8246078920459339764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hintergrund_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 880
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0fb375ee3ee29980800000000000000
+      internalID: -8533496390008717556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hintergrund_18
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 880
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9812121b40cc4d2b0800000000000000
+      internalID: -5560595319372045943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hintergrund_19
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 880
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb148380c39b26bd0800000000000000
+      internalID: -2638342764198608450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hintergrund_20
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 880
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c88427212f8aa320800000000000000
+      internalID: 2570023909921687746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hintergrund_21
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 880
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae814e2ce5aac3d0800000000000000
+      internalID: -3185551352604291424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hintergrund_22
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 864
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 169c6ea7862259bd0800000000000000
+      internalID: -2624153375739557535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hintergrund_23
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 864
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b75e078172ab5e530800000000000000
+      internalID: 3883714930753463675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hintergrund_24
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 848
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ab4041b375f09f0800000000000000
+      internalID: -500085122364294539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hintergrund_25
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 848
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba08163acedda7c90800000000000000
+      internalID: -7171175448210997077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

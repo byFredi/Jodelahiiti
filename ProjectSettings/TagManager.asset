@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Vine
+  - Checkpoint
+  - RespawnCheckpoint
+  - Checkpoint2
   layers:
   - Default
   - TransparentFX

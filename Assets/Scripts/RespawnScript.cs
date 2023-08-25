@@ -5,34 +5,28 @@ using UnityEngine;
 public class RespawnScript : MonoBehaviour
 {
     public GameObject Player;
-    public Transform[] SpawnPoints; // An array of spawn points
-    public Transform WorldSpawn; // The original world spawn point
-    public Checkpoint checkpointScript;
+    public Transform WorldSpawn;
+    public List<Checkpoint> respawnCheckpointScripts = new List<Checkpoint>();
 
-    private int lastCheckCount = 0;
-    private int spawnIndex = 0;
+    private Vector3 respawnPosition = Vector3.zero;
 
     private void Start()
     {
-        // Find the Checkpoint script if it's not assigned in the Inspector
-        if (checkpointScript == null)
+        if (respawnCheckpointScripts.Count == 0)
         {
-            checkpointScript = GameObject.FindObjectOfType<Checkpoint>();
-            if (checkpointScript == null)
-            {
-                Debug.LogWarning("No Checkpoint script found!");
-            }
+            Debug.LogWarning("No Respawn Checkpoint scripts found!");
         }
     }
 
     private void Update()
     {
-        if (checkpointScript.CheckCount > lastCheckCount)
+        // Find the latest collected checkpoint position among all respawn checkpoints
+        foreach (var checkpointScript in respawnCheckpointScripts)
         {
-            lastCheckCount = checkpointScript.CheckCount;
-
-            // Use modulo to cycle through the spawn points
-            spawnIndex = (lastCheckCount - 1) % SpawnPoints.Length;
+            if (checkpointScript.HasBeenCollected())
+            {
+                respawnPosition = checkpointScript.GetCheckpointPosition();
+            }
         }
     }
 
@@ -40,17 +34,21 @@ public class RespawnScript : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            if (checkpointScript.HasBeenCollected())
+            if (respawnPosition != Vector3.zero)
             {
-                // Teleport the player to the stored checkpoint position
-                Player.transform.position = checkpointScript.GetCheckpointPosition();
+                Player.transform.position = respawnPosition;
             }
             else
             {
-                // Teleport the player to the original world spawn
                 Player.transform.position = WorldSpawn.position;
             }
         }
+    }
+
+    // Add this method to allow updating respawn position externally (from Checkpoint script)
+    public void SetRespawnPosition(Vector3 position)
+    {
+        respawnPosition = position;
     }
 }
 

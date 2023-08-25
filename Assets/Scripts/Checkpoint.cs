@@ -6,24 +6,26 @@ public class Checkpoint : MonoBehaviour
 {
     [SerializeField] private GameObject player;
     public int CheckCount { get; private set; }
+    private Vector3 checkpointPosition;
     private bool isCollected = false;
-    private Vector3 checkpointPosition; // Store the collected checkpoint's position
 
-    private void Start()
-    {
-        CheckCount = 0;
-    }
+    // Reference to the RespawnScript instance
+    public RespawnScript respawnScript;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player") && !isCollected)
         {
-            Debug.Log("Collision detected with player.");
             CheckCount++;
-            Debug.Log("Checkpoint count: " + CheckCount);
+            checkpointPosition = transform.position;
             isCollected = true;
-            checkpointPosition = transform.position; // Store the checkpoint's position
-            gameObject.SetActive(false); // Hide the checkpoint GameObject
+
+            if (respawnScript != null)
+            {
+                respawnScript.SetRespawnPosition(checkpointPosition); // Update respawn position
+            }
+
+            gameObject.SetActive(false);
         }
     }
 
@@ -37,3 +39,4 @@ public class Checkpoint : MonoBehaviour
         return checkpointPosition;
     }
 }
+

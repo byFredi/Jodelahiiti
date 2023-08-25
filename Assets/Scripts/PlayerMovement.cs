@@ -9,14 +9,31 @@ public class PlayerMovement : MonoBehaviour
     private float jumpingPower = 3.6f;
     private bool isFacingRight = true;
 
+    Animator animator;
+
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask groundLayer;
 
+    void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
+
     // Update is called once per frame
     void Update()
     {
+
         horizontal = Input.GetAxisRaw("Horizontal");
+
+        if (horizontal != 0f) // Player is moving horizontally
+        {
+            animator.SetBool("IsWalking", true); // Set the parameter to true
+        }
+        else
+        {
+            animator.SetBool("IsWalking", false); // Set the parameter to false
+        }
 
         if (Input.GetButtonDown("Jump") & IsGrounded())
         {
@@ -29,9 +46,10 @@ public class PlayerMovement : MonoBehaviour
         }
 
         Flip();
+
     }
 
-    private void FixedUpdate() 
+    public void FixedUpdate() 
     {
         rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
     }

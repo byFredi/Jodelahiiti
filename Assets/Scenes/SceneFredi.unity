@@ -2722,7 +2722,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 3.8772316, y: -0.08757627}
+  m_Offset: {x: 6.560373, y: -0.08757627}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -2733,7 +2733,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 12.098276, y: 0.41085124}
+  m_Size: {x: 31.832363, y: 0.41085124}
   m_EdgeRadius: 0
 --- !u!4 &1062729584
 Transform:
@@ -2743,7 +2743,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1062729582}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.91, y: -3.76, z: -584.89417}
+  m_LocalPosition: {x: -5.91, y: -3.76, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -9395,7 +9395,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 1
-      m_TileSpriteIndex: 1
+      m_TileSpriteIndex: 9
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -9425,7 +9425,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 4
-      m_TileSpriteIndex: 4
+      m_TileSpriteIndex: 8
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -9544,24 +9544,24 @@ Tilemap:
   m_TileSpriteArray:
   - m_RefCount: 2
     m_Data: {fileID: 7223373961353062762, guid: f1736467cb0da2c45bbff30ace8518b1, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 607864872484886110, guid: f1736467cb0da2c45bbff30ace8518b1, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 3
     m_Data: {fileID: 8809590784112639983, guid: f1736467cb0da2c45bbff30ace8518b1, type: 3}
   - m_RefCount: 2
     m_Data: {fileID: 4888157069733769966, guid: f1736467cb0da2c45bbff30ace8518b1, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: 2570023909921687746, guid: f1736467cb0da2c45bbff30ace8518b1, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: -3743517162717273011, guid: f1736467cb0da2c45bbff30ace8518b1, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: -3185551352604291424, guid: f1736467cb0da2c45bbff30ace8518b1, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 8246078920459339764, guid: f1736467cb0da2c45bbff30ace8518b1, type: 3}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 2570023909921687746, guid: f1736467cb0da2c45bbff30ace8518b1, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: 607864872484886110, guid: f1736467cb0da2c45bbff30ace8518b1, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 3866437083609003400, guid: f1736467cb0da2c45bbff30ace8518b1, type: 3}
   - m_RefCount: 1

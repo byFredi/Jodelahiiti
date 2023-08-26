@@ -3,12 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Threading;
 
-public class Checkpoint : MonoBehaviour
+public class CheckpointHit : MonoBehaviour
 {
     [SerializeField] private GameObject player;
-    public int CheckCount { get; private set; }
+    public bool isCollected = false;
     private Vector3 checkpointPosition;
-    private bool isCollected = false;
 
     Animator animator;
 
@@ -25,27 +24,23 @@ public class Checkpoint : MonoBehaviour
 
         if (other.CompareTag("Player") && !isCollected)
         {
-            CheckCount++;
             checkpointPosition = transform.position;
             isCollected = true;
-            
-            if (respawnScript != null)
-            {
-                respawnScript.SetRespawnPosition(checkpointPosition); // Update respawn position
-            }
-            gameObject.SetActive(false);
-            
+            animator.SetBool("isCollected", true); // Set the parameter to true
         }
+        else
+        {
+            animator.SetBool("isCollected", false); // Set the parameter to false
+
+        }
+
+         
+
+    
     }
 
-    public bool HasBeenCollected()
+     public bool HasBeenCollected()
     {
-        return isCollected;
-    }
-
-    public Vector3 GetCheckpointPosition()
-    {
-        return checkpointPosition;
+    return isCollected;
     }
 }
-

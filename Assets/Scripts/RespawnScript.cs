@@ -20,13 +20,20 @@ public class RespawnScript : MonoBehaviour
 
     private void Update()
     {
+        Vector3 newRespawnPosition = Vector3.zero;
+
         // Find the latest collected checkpoint position among all respawn checkpoints
         foreach (var checkpointScript in respawnCheckpointScripts)
         {
             if (checkpointScript.HasBeenCollected())
             {
-                respawnPosition = checkpointScript.GetCheckpointPosition();
+                newRespawnPosition = checkpointScript.GetCheckpointPosition();
             }
+        }
+
+        if (newRespawnPosition != Vector3.zero)
+        {
+            respawnPosition = newRespawnPosition;
         }
     }
 

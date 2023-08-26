@@ -9,6 +9,7 @@ public class Checkpoint : MonoBehaviour
     private Vector3 checkpointPosition;
     private bool isCollected = false;
 
+
     // Reference to the RespawnScript instance
     public RespawnScript respawnScript;
 

@@ -8,6 +8,7 @@ public class PlayerMovement : MonoBehaviour
     private float speed = 1.2f;
     private float jumpingPower = 4f;
     private bool isFacingRight = true;
+    private bool isRespawning = false;
 
     Animator animator;
 
@@ -49,9 +50,16 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
-    public void FixedUpdate() 
+    public void FixedUpdate()
     {
-        rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
+        if (!isRespawning)
+        {
+            rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
+        }
+        else
+        {
+            rb.velocity = Vector2.zero; // Reset velocity during respawning
+        }
     }
 
     private bool IsGrounded() 

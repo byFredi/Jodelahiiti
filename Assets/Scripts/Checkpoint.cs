@@ -22,19 +22,18 @@ public class Checkpoint : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-
         if (other.CompareTag("Player") && !isCollected)
         {
             CheckCount++;
             checkpointPosition = transform.position;
             isCollected = true;
-            
+
             if (respawnScript != null)
             {
                 respawnScript.SetRespawnPosition(checkpointPosition); // Update respawn position
             }
+
             gameObject.SetActive(false);
-            
         }
     }
 

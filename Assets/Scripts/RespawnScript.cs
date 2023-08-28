@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class RespawnScript : MonoBehaviour
 {
@@ -20,6 +21,7 @@ public class RespawnScript : MonoBehaviour
 
     private void Update()
     {
+
         Vector3 newRespawnPosition = Vector3.zero;
 
         // Find the latest collected checkpoint position among all respawn checkpoints
@@ -57,5 +59,24 @@ public class RespawnScript : MonoBehaviour
     {
         respawnPosition = position;
     }
+
+    public void RespawnPlayer()
+    {
+        Debug.Log("RespawnPlayer method called");
+
+        if (respawnPosition != Vector3.zero)
+        {
+            Debug.Log("Teleporting player to respawn position");
+            Player.transform.position = respawnPosition;
+        }
+        else
+        {
+            Debug.Log("Teleporting player to world spawn position");
+            Player.transform.position = WorldSpawn.position;
+        }
+    }
+
 }
+
+
 

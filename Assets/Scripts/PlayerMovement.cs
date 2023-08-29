@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     private float horizontal;
+    private float vertical;
     private float speed = 1.2f;
     private float jumpingPower = 4f;
     private bool isFacingRight = true;
@@ -25,6 +26,8 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
 
+
+
         horizontal = Input.GetAxisRaw("Horizontal");
 
         if (horizontal != 0f) // Player is moving horizontally
@@ -39,11 +42,16 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetButtonDown("Jump") & IsGrounded())
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
+            animator.SetBool("IsJumping", true);
         }
 
         if (Input.GetButtonUp("Jump") && rb.velocity.y > 0f)
         {
             rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
+        }
+        else
+        {
+            animator.SetBool("IsJumping", false);
         }
 
         Flip();
